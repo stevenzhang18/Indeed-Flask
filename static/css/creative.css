@@ -42,6 +42,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: white;
 }
 .bg-primary {
   background-color: #f05f40;
@@ -151,6 +152,7 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
+  filter:brightness(50%);
   text-align: center;
   color: white;
 }
