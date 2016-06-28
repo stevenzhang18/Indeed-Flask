@@ -4,7 +4,7 @@
 # for details.
 application: indeedproject-1353
 runtime: python27
-version: 1
+version: test
 api_version: 1
 threadsafe: yes
 

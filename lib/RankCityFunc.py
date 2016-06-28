@@ -136,12 +136,15 @@ def MasterFunc(text):
     words = FormatWords([text])
     Top10 = RankCities(words)[:10]
     Results = {}
-    rank=0
-    for r in Top10:
-        rank+=1
-        simple = r[1]
-        CityName = NameDict[simple]
-        Results[rank] = CityName
+
+##    rank=0
+##    for r in Top10:
+##        rank+=1
+##        simple = r[1]
+##        CityName = NameDict[simple]
+##        Results[rank] = CityName
+
+    Results = ['']+[a[1] for a in Top10]
     return Results
 
 
